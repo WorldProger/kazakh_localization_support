@@ -1,0 +1,23 @@
+name: kazakh_localization_support
+description: Support for Kazakh language.
+version: 0.0.3
+
+environment:
+  sdk: '>=2.19.2 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # Localizations
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
