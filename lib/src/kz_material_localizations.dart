@@ -6,17 +6,14 @@ import 'package:intl/date_symbols.dart' as intl;
 import 'package:intl/date_symbol_data_custom.dart' as date_symbol_data_custom;
 import 'kz_patterns.dart';
 
-class _KzMaterialLocalization
-    extends LocalizationsDelegate<MaterialLocalizations> {
+class _KzMaterialLocalization extends LocalizationsDelegate<MaterialLocalizations> {
   const _KzMaterialLocalization();
 
   @override
   bool isSupported(Locale locale) => locale.languageCode == "kz";
 
   @override
-  bool shouldReload(
-          covariant LocalizationsDelegate<MaterialLocalizations> old) =>
-      false;
+  bool shouldReload(covariant LocalizationsDelegate<MaterialLocalizations> old) => false;
 
   @override
   Future<MaterialLocalizations> load(Locale locale) async {
@@ -62,134 +59,133 @@ class KzMaterialLocalization extends GlobalMaterialLocalizations {
     required super.twoDigitZeroPaddedFormat,
   });
 
-  static const LocalizationsDelegate<MaterialLocalizations> delegate =
-      _KzMaterialLocalization();
+  static const LocalizationsDelegate<MaterialLocalizations> delegate = _KzMaterialLocalization();
 
   @override
-  String get aboutListTileTitleRaw => r'$applicationName: сведения';
+  String get aboutListTileTitleRaw => r'$applicationName: мәліметтер';
 
   @override
-  String get alertDialogLabel => 'Оповещение';
+  String get alertDialogLabel => 'Хабарландыру';
 
   @override
   String get anteMeridiemAbbreviation => 'АМ';
 
   @override
-  String get backButtonTooltip => 'Назад';
+  String get backButtonTooltip => 'Артқа';
 
   @override
-  String get bottomSheetLabel => 'Нижний экран';
+  String get bottomSheetLabel => 'Астынғы экран';
 
   @override
-  String get calendarModeButtonLabel => 'Переключиться на календарь';
+  String get calendarModeButtonLabel => 'Күнтізбеге ауысу';
 
   @override
-  String get cancelButtonLabel => 'Отмена';
+  String get cancelButtonLabel => 'Болдырмау';
 
   @override
-  String get closeButtonLabel => 'Закрыть';
+  String get closeButtonLabel => 'Жабу';
 
   @override
-  String get closeButtonTooltip => 'Закрыть';
+  String get closeButtonTooltip => 'Жабу';
 
   @override
-  String get collapsedHint => 'Expanded';
+  String get collapsedHint => 'Кеңейтілген';
 
   @override
-  String get collapsedIconTapHint => 'Развернуть';
+  String get collapsedIconTapHint => 'Кеңейту';
 
   @override
-  String get continueButtonLabel => 'Продолжить';
+  String get continueButtonLabel => 'Жалғастыру';
 
   @override
-  String get copyButtonLabel => 'Копировать';
+  String get copyButtonLabel => 'Көшіру';
 
   @override
-  String get currentDateLabel => 'Сегодня';
+  String get currentDateLabel => 'Бүгін';
 
   @override
-  String get cutButtonLabel => 'Вырезать';
+  String get cutButtonLabel => 'Қию';
 
   @override
-  String get dateHelpText => 'дд.мм.гггг';
+  String get dateHelpText => 'кк.аа.жжжж';
 
   @override
-  String get dateInputLabel => 'Введите дату';
+  String get dateInputLabel => 'Күнді енгізіңіз';
 
   @override
-  String get dateOutOfRangeLabel => 'Дата находится вне допустимого диапазона.';
+  String get dateOutOfRangeLabel => 'Күн ауқымды диапазоннан тыс.';
 
   @override
-  String get datePickerHelpText => 'Выберите дату';
+  String get datePickerHelpText => 'Күнді таңдаңыз';
 
   @override
-  String get dateRangeEndDateSemanticLabelRaw => r'Дата окончания: $fullDate';
+  String get dateRangeEndDateSemanticLabelRaw => r'Мерзімнің өту күні: $fullDate';
 
   @override
-  String get dateRangeEndLabel => 'Дата окончания';
+  String get dateRangeEndLabel => 'Мерзімнің өту күні';
 
   @override
-  String get dateRangePickerHelpText => 'Выберите диапазон дат';
+  String get dateRangePickerHelpText => 'Күндер диапазонын таңдаңыз';
 
   @override
-  String get dateRangeStartDateSemanticLabelRaw => r'Дата начала: $fullDate';
+  String get dateRangeStartDateSemanticLabelRaw => r'Басталу күні: $fullDate';
 
   @override
-  String get dateRangeStartLabel => 'Дата начала';
+  String get dateRangeStartLabel => 'Басталу күні';
 
   @override
   String get dateSeparator => '.';
 
   @override
-  String get deleteButtonTooltip => 'Удалить';
+  String get deleteButtonTooltip => 'Жою';
 
   @override
-  String get dialModeButtonLabel => 'Перейти в режим выбора времени';
+  String get dialModeButtonLabel => 'Уақыт таңдау режиміне өтіңіз';
 
   @override
-  String get dialogLabel => 'Диалоговое окно';
+  String get dialogLabel => 'Диалогтық терезе';
 
   @override
-  String get drawerLabel => 'Меню навигации';
+  String get drawerLabel => 'Навигация мәзірі';
 
   @override
-  String get expandedHint => 'Collapsed';
+  String get expandedHint => 'Жиылған';
 
   @override
-  String get expandedIconTapHint => 'Свернуть';
+  String get expandedIconTapHint => 'Жию';
 
   @override
-  String get expansionTileCollapsedHint => 'double tap to expand';
+  String get expansionTileCollapsedHint => 'кеңейту үшін екі рет басыңыз';
 
   @override
-  String get expansionTileCollapsedTapHint => 'Expand for more details';
+  String get expansionTileCollapsedTapHint => 'Қосымша мәліметтер алу үшін кеңейтіңіз';
 
   @override
-  String get expansionTileExpandedHint => "double tap to collapse'";
+  String get expansionTileExpandedHint => "жию үшін екі рет басыңыз'";
 
   @override
-  String get expansionTileExpandedTapHint => 'Collapse';
+  String get expansionTileExpandedTapHint => 'Жию';
 
   @override
-  String get firstPageTooltip => 'Первая страница';
+  String get firstPageTooltip => 'Бірінші бет';
 
   @override
-  String get hideAccountsLabel => 'Скрыть аккаунты';
+  String get hideAccountsLabel => 'Аккаунтты жасыру';
 
   @override
-  String get inputDateModeButtonLabel => 'Переключиться на ручной ввод';
+  String get inputDateModeButtonLabel => 'Қолмен енгізуге ауысыңыз';
 
   @override
-  String get inputTimeModeButtonLabel => 'Перейти в режим ввода текста';
+  String get inputTimeModeButtonLabel => 'Мәтін енгізу режиміне ауысу';
 
   @override
-  String get invalidDateFormatLabel => 'Недопустимый формат даты.';
+  String get invalidDateFormatLabel => 'Күн форматы жарамсыз';
 
   @override
   String get invalidDateRangeLabel => 'Недопустимый диапазон.';
 
   @override
-  String get invalidTimeLabel => 'Указано недопустимое время.';
+  String get invalidTimeLabel => 'Жарамсыз диапазон.';
 
   @override
   String get keyboardKeyAlt => 'Alt';
@@ -204,10 +200,10 @@ class KzMaterialLocalization extends GlobalMaterialLocalizations {
   String get keyboardKeyCapsLock => 'Caps Lock';
 
   @override
-  String get keyboardKeyChannelDown => 'Следующий канал';
+  String get keyboardKeyChannelDown => 'Келесі арна';
 
   @override
-  String get keyboardKeyChannelUp => 'Предыдущий канал';
+  String get keyboardKeyChannelUp => 'Алдыңғы арна';
 
   @override
   String get keyboardKeyControl => 'Ctrl';
@@ -216,7 +212,7 @@ class KzMaterialLocalization extends GlobalMaterialLocalizations {
   String get keyboardKeyDelete => 'Del';
 
   @override
-  String get keyboardKeyEject => 'Извлечь';
+  String get keyboardKeyEject => 'Алу';
 
   @override
   String get keyboardKeyEnd => 'End';
@@ -288,7 +284,7 @@ class KzMaterialLocalization extends GlobalMaterialLocalizations {
   String get keyboardKeyNumpadDivide => 'Num /';
 
   @override
-  String get keyboardKeyNumpadEnter => 'Num Ввод';
+  String get keyboardKeyNumpadEnter => 'Num Енгізу';
 
   @override
   String get keyboardKeyNumpadEqual => 'Num =';
@@ -312,10 +308,10 @@ class KzMaterialLocalization extends GlobalMaterialLocalizations {
   String get keyboardKeyPageUp => 'PgUp';
 
   @override
-  String get keyboardKeyPower => 'Питание';
+  String get keyboardKeyPower => 'Қуат';
 
   @override
-  String get keyboardKeyPowerOff => 'Отключить питание';
+  String get keyboardKeyPowerOff => 'Қуатты өшіру';
 
   @override
   String get keyboardKeyPrintScreen => 'Print Screen';
@@ -324,98 +320,94 @@ class KzMaterialLocalization extends GlobalMaterialLocalizations {
   String get keyboardKeyScrollLock => 'Scroll Lock';
 
   @override
-  String get keyboardKeySelect => 'Выбрать';
+  String get keyboardKeySelect => 'Таңдау';
 
   @override
   String get keyboardKeyShift => 'Shift';
 
   @override
-  String get keyboardKeySpace => 'Пробел';
+  String get keyboardKeySpace => 'Бос орын';
 
   @override
-  String get lastPageTooltip => 'Последняя страница';
+  String get lastPageTooltip => 'Соңғы бет';
 
   @override
-  String? get licensesPackageDetailTextFew => r'$licenseCount лицензии';
+  String? get licensesPackageDetailTextFew => r'$licenseCount лицензия';
 
   @override
-  String? get licensesPackageDetailTextMany => r'$licenseCount лицензий';
+  String? get licensesPackageDetailTextMany => r'$licenseCount лицензия';
 
   @override
   String? get licensesPackageDetailTextOne => '1 лицензия';
 
   @override
-  String get licensesPackageDetailTextOther => r'$licenseCount лицензии';
+  String get licensesPackageDetailTextOther => r'$licenseCount лицензия';
 
   @override
   String? get licensesPackageDetailTextTwo => null;
 
   @override
-  String? get licensesPackageDetailTextZero => 'No licenses';
+  String? get licensesPackageDetailTextZero => 'Лицензиялар жоқ';
 
   @override
-  String get licensesPageTitle => 'Лицензии';
+  String get licensesPageTitle => 'Лицензиялар';
 
   @override
-  String get menuBarMenuLabel => 'Строка меню';
+  String get menuBarMenuLabel => 'Мәзір жолағы';
 
   @override
-  String get modalBarrierDismissLabel => 'Закрыть';
+  String get modalBarrierDismissLabel => 'Жабу';
 
   @override
-  String get moreButtonTooltip => 'Ещё';
+  String get moreButtonTooltip => 'Тағы';
 
   @override
-  String get nextMonthTooltip => 'Следующий месяц';
+  String get nextMonthTooltip => 'Келесі ай';
 
   @override
-  String get nextPageTooltip => 'Следующая страница';
+  String get nextPageTooltip => 'Келесі бет';
 
   @override
   String get okButtonLabel => 'ОК';
 
   @override
-  String get openAppDrawerTooltip => 'Открыть меню навигации';
+  String get openAppDrawerTooltip => 'Навигация мәзірін ашу';
 
   @override
-  String get pageRowsInfoTitleRaw => r'$firstRow–$lastRow из $rowCount';
+  String get pageRowsInfoTitleRaw => r'$firstRow–$lastRow $rowCount ішінен';
 
   @override
-  String get pageRowsInfoTitleApproximateRaw =>
-      r'$firstRow–$lastRow из примерно $rowCount';
+  String get pageRowsInfoTitleApproximateRaw => r'$firstRow–$lastRow шамамен $rowCount ішінен';
 
   @override
-  String get pasteButtonLabel => 'Вставить';
+  String get pasteButtonLabel => 'Қою';
 
   @override
-  String get popupMenuLabel => 'Всплывающее меню';
+  String get popupMenuLabel => 'Қалқымалы мәзір';
 
   @override
   String get postMeridiemAbbreviation => 'PM';
 
   @override
-  String get previousMonthTooltip => 'Предыдущий месяц';
+  String get previousMonthTooltip => 'Алдыңғы ай';
 
   @override
-  String get previousPageTooltip => 'Предыдущая страница';
+  String get previousPageTooltip => 'Алдыңғы бет';
 
   @override
-  String get refreshIndicatorSemanticLabel => 'Обновление';
+  String get refreshIndicatorSemanticLabel => 'Жаңарту';
 
   @override
-  String? get remainingTextFieldCharacterCountFew =>
-      r'Осталось $remainingCount символа';
+  String? get remainingTextFieldCharacterCountFew => r'$remainingCount символ қалды';
 
   @override
-  String? get remainingTextFieldCharacterCountMany =>
-      r'Осталось $remainingCount символов';
+  String? get remainingTextFieldCharacterCountMany => r'$remainingCount символ қалды';
 
   @override
-  String? get remainingTextFieldCharacterCountOne => 'Остался 1 символ';
+  String? get remainingTextFieldCharacterCountOne => '1 символ қалды';
 
   @override
-  String get remainingTextFieldCharacterCountOther =>
-      r'Осталось $remainingCount символа';
+  String get remainingTextFieldCharacterCountOther => r'$remainingCount символ қалды';
 
   @override
   String? get remainingTextFieldCharacterCountTwo => null;
@@ -424,108 +416,119 @@ class KzMaterialLocalization extends GlobalMaterialLocalizations {
   String? get remainingTextFieldCharacterCountZero => 'TBD';
 
   @override
-  String get reorderItemDown => 'Переместить вниз';
+  String get reorderItemDown => 'Төменге жылжыту';
 
   @override
-  String get reorderItemLeft => 'Переместить влево';
+  String get reorderItemLeft => 'Солға жылжыту';
 
   @override
-  String get reorderItemRight => 'Переместить вправо';
+  String get reorderItemRight => 'Оңға жылжыту';
 
   @override
-  String get reorderItemToEnd => 'Переместить в конец';
+  String get reorderItemToEnd => 'Соңына жылжыту';
 
   @override
-  String get reorderItemToStart => 'Переместить в начало';
+  String get reorderItemToStart => 'Басына жылжыту';
 
   @override
-  String get reorderItemUp => 'Переместить вверх';
+  String get reorderItemUp => 'Үстіге жылжыту';
 
   @override
-  String get rowsPerPageTitle => 'Строк на странице:';
+  String get rowsPerPageTitle => 'беттегі жолдар:';
 
   @override
-  String get saveButtonLabel => 'Сохранить';
+  String get saveButtonLabel => 'Сақтау';
 
   @override
-  String get scanTextButtonLabel => 'Сканировать текст';
+  String get scanTextButtonLabel => 'Мәтінді сканерлеу';
 
   @override
   String get scrimLabel => 'Маска';
 
   @override
-  String get scrimOnTapHintRaw => r'Закрыть $modalRouteContentName';
+  String get scrimOnTapHintRaw => r'$modalRouteContentName жабу';
 
   @override
   ScriptCategory get scriptCategory => ScriptCategory.englishLike;
 
   @override
-  String get searchFieldLabel => 'Поиск';
+  String get searchFieldLabel => 'Іздеу';
 
   @override
-  String get selectAllButtonLabel => 'Выбрать все';
+  String get selectAllButtonLabel => 'Барлығын таңдау';
 
   @override
-  String get selectYearSemanticsLabel => 'Выберите год';
+  String get selectYearSemanticsLabel => 'Жылды таңдаңыз';
 
   @override
-  String? get selectedRowCountTitleFew => r'Выбрано $selectedRowCount объекта';
+  String? get selectedRowCountTitleFew => r'$selectedRowCount нысаны таңдалды';
 
   @override
-  String? get selectedRowCountTitleMany =>
-      r'Выбрано $selectedRowCount объектов';
+  String? get selectedRowCountTitleMany => r'$selectedRowCount нысандар таңдалды';
 
   @override
-  String? get selectedRowCountTitleOne => 'Выбран 1 объект';
+  String? get selectedRowCountTitleOne => '1 нысан таңдалды';
 
   @override
-  String get selectedRowCountTitleOther => r'Выбрано $selectedRowCount объекта';
+  String get selectedRowCountTitleOther => r'$selectedRowCount нысандар таңдалды';
 
   @override
   String? get selectedRowCountTitleTwo => null;
 
   @override
-  String? get selectedRowCountTitleZero => 'Строки не выбраны';
+  String? get selectedRowCountTitleZero => 'Ешбір жол таңдалмаған';
 
   @override
-  String get showAccountsLabel => 'Показать аккаунты';
+  String get showAccountsLabel => 'Аккаунттарды көрсету';
 
   @override
-  String get showMenuTooltip => 'Показать меню';
+  String get showMenuTooltip => 'Мәзірді көрсету';
 
   @override
-  String get signedInLabel => 'Вход выполнен';
+  String get signedInLabel => 'Жүйеге кіру орындалды';
 
   @override
-  String get tabLabelRaw => r'Вкладка $tabIndex из $tabCount';
+  String get tabLabelRaw => r'$tabCount ішінен $tabIndex қойындысы';
 
   @override
   TimeOfDayFormat get timeOfDayFormatRaw => TimeOfDayFormat.H_colon_mm;
 
   @override
-  String get timePickerDialHelpText => 'Выберите время';
+  String get timePickerDialHelpText => 'Уақытты таңдаңыз';
 
   @override
-  String get timePickerHourLabel => 'Часы';
+  String get timePickerHourLabel => 'Сағат';
 
   @override
-  String get timePickerHourModeAnnouncement => 'Выберите часы';
+  String get timePickerHourModeAnnouncement => 'Сағатты таңдаңыз';
 
   @override
-  String get timePickerInputHelpText => 'Укажите время';
+  String get timePickerInputHelpText => 'Уақытты көрсетіңіз';
 
   @override
-  String get timePickerMinuteLabel => 'Минуты';
+  String get timePickerMinuteLabel => 'Минут';
 
   @override
-  String get timePickerMinuteModeAnnouncement => 'Выберите минуты';
+  String get timePickerMinuteModeAnnouncement => 'Минутты таңдаңыз';
 
   @override
-  String get unspecifiedDate => 'Дата';
+  String get unspecifiedDate => 'Күн';
 
   @override
-  String get unspecifiedDateRange => 'Диапазон дат';
+  String get unspecifiedDateRange => 'Күндер диапазоны';
 
   @override
-  String get viewLicensesButtonLabel => 'Посмотреть лицензии';
+  String get viewLicensesButtonLabel => 'Лицензияларды көру';
+
+  @override
+  String get lookUpButtonLabel => 'Іздеу';
+
+  @override
+  String get menuDismissLabel => 'Мәзірді жабу';
+
+  @override
+  String get searchWebButtonLabel => 'Ғаламтордан іздеу';
+
+  @override
+  String get shareButtonLabel => 'Бөлісу...';
 }
