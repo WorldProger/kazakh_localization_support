@@ -1,8 +1,8 @@
-Package that provides unofficial support for Turkmen language, actually for Turkmenistan location.
+Package that provides unofficial support for Kazakh language, actually for Kazakhstan location.
 
 ## Features
 
-No need to create a custom Turkmen language support, all you need is here.
+No need to create a custom Kazakh language support, all you need is here.
 
 ## Getting started
 
@@ -27,11 +27,3 @@ Simple example of usage:
       home: const Scaffold(),
     );
 ```
-
-## Additional information
-
-Unfortunately, I didn't find any support for kazakh language, so I decided to add my own support, most of information you could find by going to: https://docs.flutter.dev/development/accessibility-and-localization/internationalization
-
-## Little note
-
-Actually there are no any 'tm' language code here: https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry. Support for Turkmen language is possible only by using 'kz' tag, magic :D.
